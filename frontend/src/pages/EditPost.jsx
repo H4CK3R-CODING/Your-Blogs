@@ -13,6 +13,7 @@ export default function EditPost() {
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
 
+  
   useEffect(() => {
     if (!token) return navigate("/login");
 

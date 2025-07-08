@@ -23,6 +23,7 @@ export default function ViewPost() {
       </div>
     );
   }
+  
 
   if (!post) {
     return (
