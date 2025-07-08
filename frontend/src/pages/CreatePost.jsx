@@ -29,14 +29,14 @@ export default function CreatePost() {
         }
       );
 
-      toast.success("✅ Post created successfully!");
+      toast.success("Post created successfully!");
       navigate("/dashboard");
     } catch (error) {
       console.error(
         "Error creating post:",
         error.response?.data || error.message
       );
-      toast.error("❌ Failed to create post. Please try again.");
+      toast.error("Failed to create post. Please try again.");
     }
   };
 
