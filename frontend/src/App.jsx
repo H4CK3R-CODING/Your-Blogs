@@ -10,6 +10,7 @@ import { isLoggedInAtom } from "./recoil/atoms";
 import HomePage from "./pages/HomePage";
 import { ToastContainer } from 'react-toastify';
 
+
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useRecoilState(isLoggedInAtom);
   const navigate = useNavigate();
